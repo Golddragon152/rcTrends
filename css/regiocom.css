@@ -1,0 +1,377 @@
+body {
+    padding-top: 0px;
+    background: #d4d4d4;
+    position: relative;
+}
+
+.right {
+    float: right;
+}
+
+.logo img {
+    padding-top: 8px;
+    padding-left: 12px;
+}
+
+.nav-tabs > li {
+    display: block;
+    float: none;
+}
+
+.text {
+    padding: 40px 15px;
+    text-align: left;
+    padding-top: 220px;
+}
+
+.background-white {
+    background: #fff;
+}
+
+.background-gray {
+    background: #d4d4d4;
+}
+
+.background-orange {
+    background: #EF7C00;
+}
+
+.container .title {
+    padding: 28px 0 60px;
+    position: relative;
+}
+
+.content-element {
+    padding-bottom: 60px;
+}
+
+.container .title p:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 60px;
+    left: 50%;
+    bottom: 42px;
+    transform: translateX(-50%);
+    background-color: #EF7C00;
+}
+
+.background-orange .container .title p:after {
+    background: #fff;
+}
+
+.short-info {
+    padding: 12px 0;
+}
+
+.short-info .glyphicon {
+    padding-top: 30px;
+}
+
+.program nav li > a {
+    color: #333;
+    margin: 0;
+}
+
+.program .nav-pills > li + li {
+    margin-left: 0;
+}
+
+.program nav li p {
+    margin: 0;
+}
+
+.program .tab-content {
+    padding-top: 38px;
+}
+
+.program .tab-content .program-item {
+    padding: 16px 0;
+}
+
+.program .tab-content .program-item .glyphicon {
+    font-size: 16px;
+    display: block;
+}
+
+.program .tab-content .program-item .glyphicon:before {
+    padding-right: 10px;
+}
+
+.program .tab-content .program-item .glyphicon + .glyphicon {
+    padding-top: 8px;
+}
+
+.program .tab-content .program-item h4 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.program .tab-content .row.program-item {
+    border-bottom: 1px solid #aaa;
+}
+
+.program .tab-content .row.program-item:last-child {
+    border-bottom: none;
+}
+
+.border-bottom {
+    padding-bottom: 14px;
+    border-bottom: 1px solid #aaa;
+}
+
+.lenght-border-bottom-2 {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.organge-border-bottom {
+    border-bottom: 1px solid #EF7C00;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.info-event {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-size: 12px;
+}
+
+.center-2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.stadion {
+    padding-bottom: 30px;
+    padding-left: 15px;
+    background-image: url('../img/Stadion_3.jpg');
+    height: 650px;
+}
+
+.stadion h2 {
+    font-size: 20px;
+}
+
+/* Navigation */
+.navbar {
+    position: fixed !important;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFF;
+    border: none;
+    margin-top: 0px;
+    -webkit-transition: all 400ms cubic-bezier(0.4, 0.8, 0.6, 1) 10ms;
+    -moz-transition: all 400ms cubic-bezier(0.4, 0.8, 0.6, 1) 10ms;
+    -o-transition: all 400ms cubic-bezier(0.4, 0.8, 0.6, 1) 10ms;
+    transition: all 400ms cubic-bezier(0.4, 0.8, 0.6, 1) 10ms;
+}
+
+.navbar ul.nav {
+    padding: 12px 0;
+}
+
+.navi-scrolled {
+    margin-top: 0px;
+}
+
+.background-light-blue {
+    background: #A6BCD4;
+}
+
+.formular {
+    padding-top: 15px;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ghost-button {
+    color: #FFF;
+    background: #EF7C00;
+    font-size: 30px;
+    padding: 7px 12px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 120px;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.ghost-button:active, .ghost-button:hover {
+    color: #f0f0f0;
+    background: transparent;
+    border: 1px solid #EF7C00;
+}
+
+.ghost-button:visited {
+    color: white;
+}
+
+.hover:visited {
+    color: white;
+}
+
+.download-item:hover i.hover {
+    opacity: 1;
+}
+
+.download-item .glyphicon {
+    font-size: 6em;
+    float: right;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.download-item a.fontwhite:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-element.map {
+    padding-bottom: 0;
+}
+
+.map > .map-canvas {
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.speaker .btn span {
+    vertical-align: top;
+    padding-top: 6px;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.background-transparent {
+    background: transparent;
+    border: none;
+    text-align: left;
+}
+
+.fontwhite {
+    color: #fff !important;
+}
+
+.fontblue {
+    color: #337ab7 !important;
+}
+
+.btn-xlg {
+    min-width: 180px;
+}
+
+.text-size-24 {
+    font-size: 24px;
+}
+
+.text-size-42 {
+    font-size: 42px;
+}
+
+.text-size-50 {
+    font-size: 50px;
+}
+
+.big-icon {
+    font-size: 15px;
+}
+
+.border-gone {
+    border-bottom: none;
+    margin-right: 0;
+}
+
+.footer {
+    font-size: 18px;
+    background: #5B88BE;
+    color: white;
+    padding: 20px 0;
+}
+
+div.anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+}
+
+.download-item + .download-item,
+.speaker-item + .speaker-item,
+.program-item .program-info + .program-text,
+.signup-item + .signup-item {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .nav-tabs > li {
+        display: inline;
+        float: left;
+    }
+
+    .navi-scrolled  {
+        margin-top: 20px;
+    }
+
+    .logo img {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .signup-item + .signup-item {
+        margin-top: 0px;
+    }
+
+    .navi-scrolled  {
+        margin-top: 50px;
+    }
+
+    .logo img {
+        padding-top: 20px;
+    }
+
+    .nav-tabs > li {
+        display: inline;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .download-item + .download-item,
+    .speaker-item + .speaker-item,
+    .program-item .program-info + .program-text,
+    .signup-item + .signup-item {
+        margin-top: 0px;
+    }
+
+    .navi-scrolled  {
+        margin-top: 50px;
+    }
+
+    .logo img {
+        padding-top: 20px;
+    }
+
+    .nav-tabs > li {
+        display: inline;
+        float: left;
+    }
+}
+
